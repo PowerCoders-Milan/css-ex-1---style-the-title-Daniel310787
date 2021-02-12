@@ -1,1 +1,54 @@
-/* Use Selectors and attributes for the HTML design */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+*{
+    text-align: center;
+    color: rgba(119, 80, 173,1);
+    font-variant:normal;
+    ;
+    
+}
+
+h1{
+    font-size: 12em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900px;
+    text-decoration: line-through 10px;
+    text-shadow: 15px 35px 25px rgba(119, 80, 173,.3);
+    letter-spacing: 55px;
+
+}
+
+h2{
+    font-size: 7em;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 12px;
+    line-height: 0.3;
+    text-decoration: underline 8px;
+}
+
+h1#title{
+    color: lightblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8em;
+    text-decoration: none;
+    text-shadow: 15px 35px 25px coral;
+    
+}
+
+h2#subtitle{
+    color: midnightblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    text-decoration-line: inherit;
+    text-emphasis: 10px;
+}
+
+h1#title:hover{
+    color:midnightblue ;
+}
+
+h2#subtitle:hover{
+    text-shadow: 15px 35px 25px coral;
+}
+
+
